@@ -22,7 +22,6 @@ public class GamePanel extends JPanel implements Runnable {
         this.setPreferredSize(new Dimension(screenwidth, screenHeight));
         this.setBackground(Color.WHITE);
         this.setDoubleBuffered(true);
-
     }
 
     public void startGameThread(){
